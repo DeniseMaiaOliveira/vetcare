@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+ import { getPets, savePet, getClients, saveClient } from './lib/api';
+ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 // ─── ICONS (inline SVG components) ─────────────────────────────────────────
